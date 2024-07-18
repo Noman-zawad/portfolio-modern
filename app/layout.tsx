@@ -16,7 +16,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="bg-primary">
+    <html lang="en" className="bg-accent">
       <body className="overflow-x-hidden w-full">
         <Header />
         {children}
